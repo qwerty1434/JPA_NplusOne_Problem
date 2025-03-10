@@ -5,7 +5,7 @@
 - 1:N, N:1 연관 관계를 가지고 있을 때 발생합니다.
 
 ## 코드 설명
-- Member와 Team이 1:N 연관관계를 가지고 있습니다.
+- Team과 Member는 1:N 연관관계를 가지고 있습니다.
   - Member에서 Team은 Lazy Loading으로 호출됩니다.
 - Member의 모든 값을 findAll로 찾아온 뒤 각 멤버의 팀이름을 호출합니다.
 
